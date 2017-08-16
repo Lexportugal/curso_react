@@ -7,6 +7,7 @@ import fieldReducer from './fieldReducer'
 
 const reducers = combineReducers({
     field: fieldReducer,
+    key2: () => 'teste'
 })
 
 ReactDOM.render(
